@@ -23,8 +23,8 @@ function FourthPage() {
         <div dangerouslySetInnerHTML={{ __html: gifEmbedCode }} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }} />
       <p style={{ textAlign: 'center', marginTop: '20px' }}>Offo, Aoo tumhe ek cutie se milata hu.....</p>
       <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', marginTop: '10px' }}>
-        <button className="hover-button" onClick={handleYesClick}>Yes</button>
-        <button className="hover-button" onClick={handleNoClick}>No</button>
+        <button className="hover-button" onClick={handleYesClick}>Dikhaoooooo</button>
+        
       </div>
     </div>
   );
