@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/Fahad0Alam/m",
+  "homepage": "https://Fahad0Alam.github.io/m",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
