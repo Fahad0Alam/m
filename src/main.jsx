@@ -8,15 +8,11 @@ import FourthPage from './fourth';
 import CameraPage from './fifth';
 import SixthPage from './sixth';
 import './index.css';
-import { useNavigate,useLocation } from 'react-router-dom';
-import {useEffect} from 'react';
-
-//function RedirectOnRefresh() { const navigate = useNavigate(); const location = useLocation(); useEffect(() => { if (location.pathname !== '/' && window.performance.getEntriesByType('navigation')[0].type === 'reload') { navigate('/'); } }, [location.pathname, navigate]); return null};
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <Router>
+  <Router basename="/m">
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/second" element={<SecondPage />} />
@@ -27,4 +23,5 @@ root.render(
     </Routes>
   </Router>
 );
+
 
