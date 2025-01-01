@@ -23,7 +23,7 @@ function SixthPage() {
         <div dangerouslySetInnerHTML={{ __html: gifEmbedCode }} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }} />
       <p style={{ textAlign: 'center', marginTop: '20px' }}></p>
       <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', marginTop: '10px' }}>
-        <button className="hover-button" onClick={handleNoClick}>Shreshtha for a reason😎😎</button>
+        <button className="hover-button" onClick={handleNoClick}>Kammo jii for a reason😎😎</button>
       </div>
     </div>
   );
